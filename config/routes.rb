@@ -7,6 +7,7 @@ PodioRailsSample::Application.routes.draw do
       post :create_from_app_auth
     end
   end
+  # changed match to post per rake migration error instruction
   post "/auth/:provider/callback" => "sessions#create"
   resources :leads
   resources :tasks
