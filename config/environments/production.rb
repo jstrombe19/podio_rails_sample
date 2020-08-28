@@ -20,6 +20,9 @@ PodioRailsSample::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  # Set eager_load to false
+  config.eager_load = true
+
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
 

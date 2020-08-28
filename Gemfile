@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails'
 
@@ -16,6 +16,7 @@ group :assets do
   gem 'coffee-rails'
   gem 'uglifier'
 end
+
 
 gem 'jquery-rails'
 
